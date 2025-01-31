@@ -2,6 +2,7 @@
 
 
 ##Deschiderea editorului Visual Studio Code ca editor default pentru git
+##Deschiderea editorului Visual Studio Code ca editor default pentru git
 
 
 ## initializeaza proiectul de git local - creeaza un folder .git ascuns
@@ -32,3 +33,15 @@ git clone Curs2-Intro-To-Git-2024-2025
  ##Comanda de adauga + commit(Fisierele trebuie sa fi fost incluse intr-un commit inainte)
  git commit -am - "Acesta este un mesaj descriptiv al commitului"
 
+## Modificarea ultimului commit
+git commit --amend
+
+##Pentru a lua codul de pe server
+git pull
+git pull origin
+
+## Pentru lucru cu branch - uri
+##Listarea tuturor branch-urilor
+git branch
+
+##Redenumirea branch-ului curent in ce este dupa -m
