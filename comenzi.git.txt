@@ -1,0 +1,34 @@
+
+
+
+##Deschiderea editorului Visual Studio Code ca editor default pentru git
+
+
+## initializeaza proiectul de git local - creeaza un folder .git ascuns
+git initializeaza
+
+## Descarca de pe server un proiect de git
+git clone Curs2-Intro-To-Git-2024-2025
+ 
+
+ ## Arata lista de commituri
+ git log
+ git log --oneline
+
+ ##Arata statusul fisierelor(daca sunt schimbate)
+ git status
+ git status -s
+
+ ###Comenzi de adaugare  a fisierelor in STAGED(inainte de creare a commitului)
+ git add filename
+ git add .
+ git add filename.*
+ git add filename1  filename2 filename3
+
+ ##Comenzi de creare a commitului
+ git commit -m - Acesta este un mesaj descriptiv al commitului
+ git commit -message "Acesta este un mesaj descriptiv al commitului"
+
+ ##Comanda de adauga + commit(Fisierele trebuie sa fi fost incluse intr-un commit inainte)
+ git commit -am - "Acesta este un mesaj descriptiv al commitului"
+
